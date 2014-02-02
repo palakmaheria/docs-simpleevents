@@ -1,3 +1,34 @@
-name: Your New Jekyll Site
+# General configurations
+title: Simple Events
+description: All about Simple Events - An effort by DotNetStuffs
+logo: SiteLogo.png
+disqus_shortname: simpleevents
+# Site URL change it to your real URL when committing
+url: http://localhost:4000
+
+# Jekyll stuffs
 markdown: redcarpet
 pygments: true
+
+# Site configuration
+permalink: /:title
+
+# Owner / Site information
+owner:
+  name: DotNetStuffs
+  email: jachauhan@gmail.com
+  twitter: jcdotlife
+  stackexchange: jsinh
+  github: dotnetstuffs/simpleevents
+  google_plus: jachauhan
+
+links:
+  - title: About
+    url: /about
+    external: false
+  - title: Test01
+    url: /test01
+    external: false
+  - title: Test02
+    url: /test02
+    external: false
