@@ -4,4 +4,4 @@ title: Simple Events by DotNetStuffs
 description: "Simple / easy to use implementation of event aggregation pattern"
 tags: [dotnetstuffs, simpleevents, jsinh, jaspalsinh, jachauhan, events, eventaggregator, nuget, .net]
 ---
-Test
+Welcome to SimpleEvents package documentation site
