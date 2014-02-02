@@ -1,14 +1,14 @@
 ######################################################################
 # General configurations
 ######################################################################
-title: Simple Events
+title: Simple Events by DotNetStuffs
 description: All about Simple Events - An effort by DotNetStuffs
 logo: SiteLogo.png
 
 ######################################################################
 # Site URL change it to your real URL when committing
 ######################################################################
-url: http://simpleevents.in 
+url: http://localhost
 
 ######################################################################
 # Owner / Site information
@@ -28,8 +28,8 @@ links:
   - title: About
     url: /about
     external: false
-  - title: Test01
-    url: /test01
+  - title: License
+    url: /license
     external: false
   - title: Test02
     url: /test02
@@ -40,7 +40,6 @@ links:
 ######################################################################
 disqus_shortname: simpleevents
 google_analytics: UA-47710194-1
-
 ######################################################################
 # Jekyll stuffs
 ######################################################################

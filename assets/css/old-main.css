@@ -30,7 +30,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #c0bfbf;
+    border-top: 1px solid #e5e5e5;
     margin: 1em 0;
     padding: 0;
 }
@@ -57,11 +57,11 @@ textarea {
 }
 
 h1, h2, h3, h4 {
-    font-weight: normal;
+    font-weight: lighter;
 }
 
 .fa {
-    color: #6a6a6a;
+    color: gray;
 }
 
 /* ===== Initializr Styles ==================================================
@@ -69,7 +69,7 @@ h1, h2, h3, h4 {
    ========================================================================== */
 
 body {
-    font: 14px/24px "Raleway", Arial;
+    font: 16px/26px "Raleway", Arial;
 }
 
 .wrapper {
@@ -94,9 +94,7 @@ body {
 }
 
 .footer-container {
-    height: 10px;
-    border-top: 1px solid;
-    border-color: #c0bfbf;
+    border-top: 1px solid #e5e5e5;
 }
 
 .social-links {
@@ -113,26 +111,18 @@ body {
 }
 
 .site-logo {
-    height: 140px;
-    width: 140px;
-    padding: 15px;
-    -ms-border-radius: 50%
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
 }
 
 /* ==============
     MOBILE: Menu
    ============== */
-
 a {
     text-decoration: none;
-    color: #9e170d;
-}
-
-a:hover
-{
-    text-decoration: underline;
+    color: #FA1153;  
 }
 
 nav ul {
@@ -147,15 +137,17 @@ nav a {
 
     text-align: center;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: light;
 
-    color: #000;
+    color: #FA1153;
+    background: #e6e6e6;
 }
 
 nav > ul > li > a:hover {
-    color: #9e170d;
+    color: #FA1153;
     text-decoration: none;
 }
+
 
 nav a:hover,
 nav a:visited {
@@ -185,13 +177,12 @@ nav a:hover {
 
 .footer-container footer {
     color: #000;
-    padding: 5px 0;
+    padding: 20px 0;
 }
 
 /* ===============
-    ALL: IE Fixes
+    ALLsi: IE Fixes
    =============== */
-
 .ie7 .title {
     padding-top: 20px;
 }
@@ -200,34 +191,19 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-code, kbd, pre, samp {
-  font-family: monospace,serif;
-  font-size: 12px;
-}
 
-pre, blockquote {
-        border-left: 2px solid;
-        border-color: #c0bfbf;
-        padding: 0 5px;
-        color: #6a6a6a;
-    }
 
-.wrap {
-    margin: 0 auto;
-    max-width: 960px;
-    overflow: hidden;
-}
 
-.creds {
-    float: right;
-    text-align: right;
-    width: 65%;
-}
 
-.gototop {
-    float: left;
-    width: 30%;
-}
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Media Queries
@@ -241,9 +217,8 @@ pre, blockquote {
 
     nav a {
         float: left;
-        /*width: 20%;*/
-        margin: 0 5%;
-        /* padding: 25px 2%; */
+        width: 27%;
+        margin: 0 1.7%;
         margin-bottom: 0;
     }
 
@@ -273,12 +248,11 @@ pre, blockquote {
 /* ====================
     WIDE: CSS3 Effects
    ==================== */
+.header-container {
+  height: 56px;
+}
     .header-container {
-        height: 56px;
         border-bottom: 1px solid #e5e5e5;
-        -webkit-box-shadow: 0 2px 4px #c0bfbf;
-           -moz-box-shadow: 0 2px 4px #c0bfbf;
-                box-shadow: 0 2px 4px #c0bfbf;
     }
 
 /* ============
@@ -286,7 +260,7 @@ pre, blockquote {
    ============ */
 
     .title {
-        font-weight: normal;
+        font-weight: lighter;
         float: left;
     }
 
@@ -419,6 +393,12 @@ pre, blockquote {
         content: "";
     }
 
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
     thead {
         display: table-header-group; /* h5bp.com/t */
     }
@@ -447,4 +427,9 @@ pre, blockquote {
     h3 {
         page-break-after: avoid;
     }
+}
+
+code, kbd, pre, samp {
+  font-family: monospace,serif;
+  font-size: 14px;
 }

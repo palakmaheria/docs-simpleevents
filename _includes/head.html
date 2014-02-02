@@ -3,6 +3,7 @@
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
 <!-- Twitter Card -->
@@ -40,7 +41,7 @@
 {% if site.owner.google_plus %}<link rel="author" href="{{ site.owner.google_plus }}?rel=author">{% endif %}
 
 <!-- CSS integration -->
-<link rel="stylesheet" href="{{ site.url }}/assets/css/normalize.min.css">
+<link rel="stylesheet" href="{{ site.url }}/assets/css/normalize.css">
 <link rel="stylesheet" href="{{ site.url }}/assets/css/github.css">
 <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
 
