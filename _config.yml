@@ -4,7 +4,7 @@ description: All about Simple Events - An effort by DotNetStuffs
 logo: SiteLogo.png
 disqus_shortname: simpleevents
 # Site URL change it to your real URL when committing
-url: http://localhost:4000
+url: http://simpleevents.in
 
 # Jekyll stuffs
 markdown: redcarpet
