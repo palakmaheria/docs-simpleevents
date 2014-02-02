@@ -1,19 +1,18 @@
+######################################################################
 # General configurations
+######################################################################
 title: Simple Events
 description: All about Simple Events - An effort by DotNetStuffs
 logo: SiteLogo.png
-disqus_shortname: simpleevents
+
+######################################################################
 # Site URL change it to your real URL when committing
+######################################################################
 url: http://simpleevents.in 
 
-# Jekyll stuffs
-markdown: redcarpet
-pygments: true
-
-# Site configuration
-permalink: /:title
-
+######################################################################
 # Owner / Site information
+######################################################################
 owner:
   name: DotNetStuffs
   email: jachauhan@gmail.com
@@ -22,6 +21,9 @@ owner:
   github: dotnetstuffs/simpleevents
   google_plus: jachauhan
 
+######################################################################
+# Menu link configurations
+######################################################################
 links:
   - title: About
     url: /about
@@ -32,3 +34,21 @@ links:
   - title: Test02
     url: /test02
     external: false
+
+######################################################################
+# External support integration
+######################################################################
+disqus_shortname: simpleevents
+google_analytics: UA-47710194-1
+
+######################################################################
+# Jekyll stuffs
+######################################################################
+markdown: redcarpet
+pygments: true
+
+
+######################################################################
+# Site configuration
+######################################################################
+permalink: /:title
