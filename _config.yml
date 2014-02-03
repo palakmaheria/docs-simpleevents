@@ -25,16 +25,15 @@ owner:
 # Menu link configurations
 ######################################################################
 links:
-  - title: About
-    url: /about
+  - title: Roadmap
+    url: /roadmap
     external: false
   - title: License
     url: /license
     external: false
-  - title: Test02
-    url: /test02
+  - title: About
+    url: /about
     external: false
-
 ######################################################################
 # External support integration
 ######################################################################
