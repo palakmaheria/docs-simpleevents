@@ -24,9 +24,9 @@ SimpleEvent works is one of the open source efforts by DotNetStuffs.in
 
 [Source code for this site @ GitHub][6]
 
-[Mother site - DotNetStuffs.in][7]
+[Other projects @ DotNetStuffs.in][7]
 
-For more information about the project, queries, critics, addition feature request and appreciation can be thrown to **jachauhan** [at] **gmail** [dot] **com**.
+For more information about the project, queries, critics, issues, limitations, additional feature request and appreciation can be thrown to **jachauhan** [at] **gmail** [dot] **com**.
 
 [1]: http://martinfowler.com/eaaDev/EventAggregator.html
 [2]: http://mvvmlight.codeplex.com/
