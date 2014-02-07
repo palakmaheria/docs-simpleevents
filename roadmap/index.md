@@ -7,13 +7,13 @@ tags: [roadmap, dotnetstuffs, simpleevents, jsinh, jaspalsinh, jachauhan, events
 
 Roadmap for SimpleEvents library is as below listed:
 
-* <del>Create initial base project implementation</del> [[Done][1]]
+* <del>Create initial base project implementation</del> [[Done @ 25th Jan, 2014][1]]
 
-* <del>Get listed on NuGet package gallery for usage</del> [[Done][2]]
+* <del>Get listed on NuGet package gallery for usage</del> [[Done @ 25th Jan, 2014][2]]
 
-* <del>Rename publicaly exposed entities to better relate to pattern specification</del> [Done]
+* <del>Rename publicaly exposed entities to better relate to pattern specification</del> [Done @ 5th Feb, 2014]
 
-* Modify or refactor publicaly exposed calls documentation and add possible exception details
+* <del>Modify or refactor publicaly exposed calls documentation</del> and add possible exception details [Done @ 5th Feb, 2014] and [Pending]
 
 * Create a easy to understand documentation / information site for library usage
 
