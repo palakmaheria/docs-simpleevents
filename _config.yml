@@ -50,3 +50,4 @@ pygments: true
 # Site configuration
 ######################################################################
 permalink: /:title
+relative_permalinks: true
